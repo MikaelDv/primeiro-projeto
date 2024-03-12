@@ -1,0 +1,17 @@
+body{
+    background-color: #C3221A;
+}
+#titulo{ 
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFC000;
+    -webkit-border-image: #ff0000;
+    -webkit-text-stroke: #ff0000;
+}
+.logo{
+    width: 30px;  
+    height: 30px; 
+}
