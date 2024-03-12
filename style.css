@@ -1,21 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
 body{
-    background-color: #C3221A;
+    background-color: #803034;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    align-items: center;
+    background-color: rgb(87, 0, 0);
+}
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
 }
 .titulo{ 
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    color: #FFC000;
-    -webkit-border-image: #ff0000;
-    -webkit-text-stroke: #ff0000;
+    color: #df180e;
+    -webkit-text-stroke: 0;
 }
 .logo{
     width: 30px;  
     height: 30px; 
 }
-.stalinismo{
-    width: auto;
-    height: 250px;
+.link{
+    text-decoration: none;
+    color: inherit;
 }
