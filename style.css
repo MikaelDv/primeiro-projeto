@@ -1,7 +1,7 @@
 body{
     background-color: #C3221A;
 }
-#titulo{ 
+.titulo{ 
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -14,4 +14,8 @@ body{
 .logo{
     width: 30px;  
     height: 30px; 
+}
+.stalinismo{
+    width: auto;
+    height: 250px;
 }
