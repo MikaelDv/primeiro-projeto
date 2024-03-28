@@ -17,15 +17,19 @@
 /* Tag */
 #titulos {
     font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
 }
+
 header {
     background-color: blue;
 }
 
+p {
+    color: green;
+}
+
 /* Class */
 .link {
-    color: #318021;
+    color: black;
 }
 
 ul .link {
@@ -40,6 +44,10 @@ ul .link {
         color: #e8240e;
     }
 
+}
+
+#cabecalho h1 {
+    color: whitesmoke;
 }
 
 #menu ul{
@@ -62,4 +70,19 @@ nav {
 
 #conteudo {
     line-height: 1.5;
+}
+
+form {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+form button {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: solid red;
 }
